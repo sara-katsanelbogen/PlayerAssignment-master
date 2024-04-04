@@ -1,4 +1,4 @@
-package com.intuit.playerassignment.Exceptions;
+package com.intuit.playerassignment.exceptions;
 
 public class PlayerNotFoundException extends RuntimeException {
     public PlayerNotFoundException(String message) {
