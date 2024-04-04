@@ -11,7 +11,8 @@ import java.util.List;
 import java.util.Map;
 
 public class PlayersLoader {
-    private static final String CSV_FILE_PATH = "./src/main/resources/player.csv";
+    // private static final String CSV_FILE_PATH = "./src/main/resources/player.csv";
+    private static final String CSV_FILE_PATH = "../PlayerAssignment-master/PlayerAssignment-master/src/main/resources/player.csv";
     private static PlayersLoader instance;
     private PlayerMapper playerMapper;
     private Map<String, Player> playerID2PlayerMap; //use map for getting a specific player in O(1).
