@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-import java.util.List;
+import java.util.Collection;
 
 @SpringBootTest
 public class PlayerAssignmentApplicationTests {
@@ -28,11 +28,12 @@ public class PlayerAssignmentApplicationTests {
         Assert.assertEquals(statusCode, HttpStatus.NOT_FOUND);
     }
 
+    @SuppressWarnings({ "unchecked", "null" })
     @Test
     public void getAllPlayersTest() {
         ResponseEntity<?> responseEntity  = playerController.getPlayers();
         Assert.assertEquals(responseEntity.getStatusCode(), HttpStatus.OK);
-        List<Player> players = (List<Player>) responseEntity.getBody();
+        Collection<Player> players = (Collection<Player>) responseEntity.getBody();
         Assert.assertEquals(players.size(), 19370);
     }
 }
