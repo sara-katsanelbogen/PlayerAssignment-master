@@ -1,7 +1,7 @@
 package com.intuit.playerassignment.controllers;
 
-import com.intuit.playerassignment.Exceptions.PlayerNotFoundException;
 import com.intuit.playerassignment.annotations.ProjectAuthentication;
+import com.intuit.playerassignment.exceptions.PlayerNotFoundException;
 import com.intuit.playerassignment.models.Player;
 import com.intuit.playerassignment.services.PlayerService;
 

@@ -1,4 +1,4 @@
-package com.intuit.playerassignment.Exceptions;
+package com.intuit.playerassignment.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

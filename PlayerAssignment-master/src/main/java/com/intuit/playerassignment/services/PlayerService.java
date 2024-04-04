@@ -1,6 +1,6 @@
 package com.intuit.playerassignment.services;
 
-import com.intuit.playerassignment.Exceptions.PlayerNotFoundException;
+import com.intuit.playerassignment.exceptions.PlayerNotFoundException;
 import com.intuit.playerassignment.models.Player;
 import com.intuit.playerassignment.utils.PlayersLoader;
 

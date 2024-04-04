@@ -1,4 +1,4 @@
-package com.intuit.playerassignment.Exceptions;
+package com.intuit.playerassignment.exceptions;
 
 import java.time.LocalDateTime;
 
